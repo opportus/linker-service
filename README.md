@@ -12,6 +12,8 @@ Public web service linking nodes from input collection and parameters.
 ## Todo for v1.0 release
 
 - [ ] Implement TLS support
+- [ ] Implement non existing resource request handling
+- [ ] Implement not supported HTTP method handling
 - [ ] Implement logging
 - [ ] Implement illogical list handling
 - [ ] Implement 100% test coverage
