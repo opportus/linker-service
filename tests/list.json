@@ -1,0 +1,22 @@
+[
+  {
+    "departure": "cityA",
+    "arrival": "cityB"
+  },
+  {
+    "departure": "cityB",
+    "arrival": "cityC"
+  },
+  {
+    "departure": "cityC",
+    "arrival": "cityD"
+  },
+  {
+    "departure": "cityD",
+    "arrival": "cityE"
+  },
+  {
+    "departure": "cityE",
+    "arrival": "cityF"
+  }
+]

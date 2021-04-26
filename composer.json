@@ -1,0 +1,37 @@
+{
+    "name": "opportus/linker-service",
+    "description": "Public web service linking nodes from input collection and parameters",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Clément Cazaud",
+            "email": "clement.cazaud@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "ext-spl": "*",
+        "symfony/dependency-injection": "^5.2",
+        "symfony/http-foundation": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "friendsofphp/php-cs-fixer": "^2.18"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Opportus\\LinkerService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Opportus\\LinkerService\\Tests\\": "tests/"
+        }
+    }
+}
