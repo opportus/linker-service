@@ -28,7 +28,7 @@ Requires:
 - Git
 - Composer
 - Docker
-- Free 80 ports on dev environment
+- Free 8080 ports on dev environment
 
 ```shell
 git clone git@github.com:opportus/linker-service.git
@@ -81,7 +81,7 @@ Web service API call:
 
 ```shell
 curl -X GET -G \
-'http://localhost:80' \
+'http://localhost:8080' \
 -d "link=arrival:departure" \
 -data-urlencode "list=$(cat list.json)"
 ```
