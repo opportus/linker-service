@@ -20,12 +20,22 @@ Public web service linking nodes from input collection and parameters.
 - [ ] Optimize link autodiscovery algorithm
 - [ ] Optimize linking algorithm
 
-## Installation with Docker
+## Setup for dev environment
+
+Requires:
+
+- GNU/Linux OS
+- Git
+- Composer
+- Docker
+- Free 80 ports on dev environment
 
 ```shell
 git clone git@github.com:opportus/linker-service.git
 cd linker-service
-docker-compose --file docker/dev/docker-compose.yaml up
+composer install --ignore-platform-reqs
+
+sudo docker-compose --file docker/dev/docker-compose.yaml up
 ```
 
 ## Overview
